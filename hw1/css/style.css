@@ -1,0 +1,173 @@
+/* ========== RESET STYLES ========== */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background-color: #030303;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========== LAYOUT ========== */
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.column {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+/* ========== GLOBAL COMPONENTS ========== */
+
+.heading {
+  font-family: 'Judson', serif;
+  text-align: center;
+
+  font-size: 220px;
+  line-height: 220px;
+
+  height: 220px;
+  color: #FFFFFF;
+}
+/* @todo: re-write */
+.right {
+  text-align: right;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ========== HEADER MENU ========== */
+
+.navigation {
+  padding: 54px 0;
+}
+
+.navigation-link,
+.navigation-logo {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.navigation-link {
+  color: #F2F2F2;
+}
+
+.navigation-link {
+  width: 35%;
+}
+
+.navigation-logo {
+  text-align: center;
+  width: 28%;
+}
+
+.svg--icon {
+  width: 172px;
+  height: 24px;
+}
+
+/* ========== HERO ========== */
+
+.hero {
+  background-image: url(../img/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 135vh;
+}
+
+.hero-heading {
+  padding: 225px 0 648px;
+}
+
+/* ========== TEAM ========== */
+
+.team {
+  color: #D6D0CE;
+  text-align: center;
+
+  padding: 122px 0 50px;
+}
+
+.team-item {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.role {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.name {
+  font-family: 'Judson', serif;
+  font-size: 32px;
+  line-height: 32px;
+  
+  margin-top: 6px;
+}
+
+/* ========== GALLERY ========== */
+
+.gallery {
+  padding: 63px 0 80px;
+}
+/* @todo: re-write */
+.gallery svg:nth-of-type(2) {
+  float: right;
+  margin: 214px 0;
+}
+
+.svg--gallery-photo {
+  width: 1029px;
+  height: 707px;
+}
+
+/* ========== BLOCK TITLE ========== */
+
+.section-title {
+  padding: 80px 0;
+}
+
+/* ========== TWO PAIR IMAGES ========== */
+
+.photo-pair {
+  padding: 20px 0;
+}
+/* @todo: re-write */
+.photo-pair div:nth-child(2) svg {
+  float: right;
+}
+
+.svg--pair-photo {
+  width: 576px;
+  height: 886px;
+}
+
+/* ========== FOOTER ========== */
+
+.footer {
+  padding: 50px 0;
+}
