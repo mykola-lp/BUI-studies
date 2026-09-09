@@ -1,0 +1,101 @@
+:root {
+  --color-grey: #a0a0a0;
+  --color-dark-grey: #333;
+  --color-red: #933;
+  --color-green: #393;
+  --color-white: #fff;
+  --small-radius: 5px;
+}
+
+* {
+  color: var(--color-dark-grey);
+  user-select: none;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px var(--color-grey);
+  margin-bottom: 40px;
+}
+
+.controls-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.controls-description {
+  font-size: 12px;
+  text-align: center;
+}
+
+.controls-timing {
+  font-weight: 700;
+  text-align: center;
+}
+
+.controls-info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.controls-username {
+  border: none;
+  outline: none;
+  border-radius: var(--small-radius);
+  padding: 10px 20px;
+  background-color: var(--color-dark-grey);
+  color: var(--color-grey);
+  align-self: center;
+}
+
+.controls-username:focus {
+  color: var(--color-white);
+}
+
+.start-btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: var(--small-radius);
+  text-transform: uppercase;
+  align-self: center;
+  box-shadow: 0 0 9px 0 #5f5f5f;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.start-btn:hover {
+  background-color: var(--color-dark-grey);
+  color: var(--color-grey);
+  box-shadow: 0 0 9px 0 #f5f5f5;
+}
+
+.game-field {
+  outline: 10px solid var(--color-grey);
+  min-height: 200px;
+}
+
+.game-field--lose {
+  outline: 10px solid var(--color-red);
+}
+
+.game-field--win {
+  outline: 10px solid var(--color-green);
+}
+
+.enemy {
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50%);
+  background-color: var(--color-dark-grey);
+}
