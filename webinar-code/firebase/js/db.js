@@ -1,6 +1,6 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAPQ90e0skSFeo88fQnWkL1H5mGLArsuKE',
+  apiKey: '',
   authDomain: 'tom-and-jerry-446cc.firebaseapp.com',
   projectId: 'tom-and-jerry-446cc',
   storageBucket: 'tom-and-jerry-446cc.appspot.com',
