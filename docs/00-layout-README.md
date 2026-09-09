@@ -84,7 +84,7 @@ font-weight: 400; - (normal) - дефолтне значення браузер�
 
 ## 6. Синтаксис для `margin` та `padding`
 
->> `top` `right` `bottom` `left`
+> `top` `right` `bottom` `left`
 
 ```css
   margin: 32px 0 27px; /* top-32 right/left-0 bottom-27 */
